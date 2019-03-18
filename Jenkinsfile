@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('check run') {
             steps {
-                echo 'python main.py'
+                sh '/usr/bin/python main.py'
             }
         }
     }
